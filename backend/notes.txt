@@ -1,0 +1,66 @@
+<===============>
+| Back end		|
+<===============>
+
+For a look into sites stacks: stackshare.io
+
+A generic stack:
+	- Backend langauge/app
+	- Server
+	- Database
+	======================
+	- HTML, JS, CSS
+	- Webpage
+
+Reddit's Stack:
+	- Python/Flask
+	- nginx
+	- postgresql
+	======================
+	- HTML, JS, CSS (backbone)
+	- Webpage
+
+Our Stack
+	- NodeJS
+	- Express
+	- MongoDB
+	======================
+	- HTML, JS, CSS
+	- Webpage
+
+Potential Backend Features
+	- Check if user is loggen in
+	- Figure out what HTML, CSS and JS to send to the user
+	- Sign up a new user
+	- Add a new post to DB
+	- create a new comment
+	- remove post from db
+	- sort/rank posts
+	- create subreddit
+	- add to newsletter
+
+Front End 			====> 		Backend
+
+Ask for homepage			
+					====>		
+							Get top posts from DB
+							send back home page content
+					<====		
+Browser renders 
+home page
+
+User enters "dogs"
+in search box and 			
+submits from		
+					====>								
+							Find all posts in DB about
+ 								"dogs"
+
+							Sends back HTML for the search
+							results
+
+					<====
+Browser renders search
+page
+
+
